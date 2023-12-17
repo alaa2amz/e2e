@@ -1,0 +1,49 @@
+    1  cd new1
+    2  ls
+    3  cd new2
+    4  php -i
+    5  php -i|grep include_
+    6  pear -v
+    7* pear install phpunit/PHPUnit
+    8  pear update
+    9  pear help
+   10  pear channel-discover pear.phpunit.de
+   11  pear channel-update
+   12  pear search phpunit
+   13  composer search zff1
+   14  php -h
+   15  php -h|grep include
+   16  ls
+   17  composer global require phpunit/phpunit:3.7
+   18  php -i|grep include_
+   19  su
+   20  uname -a
+   21  apt update
+   22  apt-get update
+   23  ls
+   24  cd -
+   25  ./bin/zf.sh
+   26  PHPRC=$PWD ./bin/zf.sh create project y1
+   27  PHPRC=$PWD
+   28  PHP_INI_SCAN_DIR=$PWD
+   29  export PHPRC
+   30  export PHP_INI_SCAN_DIR
+   31  ./bin/zf.sh create project y1
+   32  cd y1
+   33  ls
+   34  ls tests/
+   35  phpunit --version
+   36  phpunit tests
+   37  cp ../library/* ./library/
+   38  cp -r ../library/* ./library/
+   39  phpunit tests
+   40  ls
+   41  phpunit --bootstrap autoloader.php tests
+   42  PHPRC=$PWD
+   43  PHP_INI_SCAN_DIR=$PWD
+   44  export PHPRC
+   45  export PHP_INI_SCAN_DIR
+   46  phpunit --bootstrap autoloader.php tests
+   47  date
+   48  history
+   49  history > 1st-worked.history
